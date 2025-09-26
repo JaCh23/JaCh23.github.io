@@ -7,4 +7,5 @@ related_posts: false
 
 A simple inline announcement.
 
-![rhino](assets\img\rhino.png)
+<!-- ![rhino](assets\img\rhino.png) -->
+<img src="assets\img\rhino.png" alt="Alternative text" width="300" height="auto"> 

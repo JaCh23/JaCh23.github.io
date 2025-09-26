@@ -32,8 +32,4 @@ announcements:
 
 I recently completed my Post-graduate and am looking to start my career in AI Safety Research. Previously, I come from an AI and Software Engineering background where my most recent experiences were based around the public sector and delivering AI based solutions.
 
-<!-- What inspired my transition to AI Safety is ... -->
-<!-- I would say I am a generalist in nature -  -->
-<!-- On the side, I am involved at a local youths-based non-profit organisation serving as the current Data/AI Technical Lead. Also, I am the head AI Trainer at a local robotics and coding academy.  -->
-
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
