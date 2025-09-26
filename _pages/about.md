@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href="https://www.aisafety.sg/" target="_blank">SASH</a> AI Safety Research. NUS MSc Business Analytics.
 
 profile:
   align: left
@@ -13,7 +13,7 @@ profile:
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -25,11 +25,18 @@ announcements:
 #   enabled: true
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
 #   limit: 3 # leave blank to include all the blog posts
-# TODO: biography
 ---
+I am a recent Masters' Graduate looking to transition my career into AI Safety Research. Previously, I come from an AI and Software Engineering background with recent experiences based around the public sector delivering AI-based solutions.
 
-[WIP]
+My shift into AI Safety grew naturally out of my technical work over the past few years. While working with many different AI systems and applications, I saw firsthand just how popular they were becoming. But despite all the excitement, I realized there was a huge amount of work needed to make sure these systems are truly reliable and trustworthy. The biggest concern came from the new Generative AI models which opened a massive box of problems around how they work and why they make the decisions they do. What struck me is how much the world is starting to depend on these incredibly powerful tools when we don't fully understand their inner workings.
 
-I recently completed my Post-graduate and am looking to start my career in AI Safety Research. Previously, I come from an AI and Software Engineering background where my most recent experiences were based around the public sector and delivering AI based solutions.
+This realization is what directed my focus towards AI Safety. Since then, I’ve been actively engaged with the local AI Safety community, attending various events and reading groups while learning from brilliant peers and colleagues. To build on this foundation, I'm currently taking AI Safety Alignment courses and sitting in on PhD modules to gain hands-on experience and exposure in AI safety to smoothen my path into a professional career.
+
+I would say my experiences have allowed me to develop as a dedicated generalist, enjoying the opportunity to contribute across various technical and leadership domains. This cross-functional mindset has led to some rewarding outcomes through collaboration and teamwork. For example, I had the opportunity to lead a team that secured 1st runner-up in a national hackathon during my year abroad. More recently, I was grateful for the chance to mentor a team of juniors at a national innovation challenge, and it was rewarding to see them reach a Top 8 national finish. This commitment to building and contributing also fueled my early entrepreneurial experience as a student co-founder, which successfully secured a capital grant from the university to explore a new idea.
+
+A significant part of my growth has come from embracing collaborative leadership and mentorship. I often found myself in team lead roles during my postgraduate modules, which allowed me to hone my ability to build consensus and drive projects forward, even when working with members who had greater professional experience. I also find it incredibly fulfilling to help others grasp challenging concepts - I was honoured to receive an Outstanding Teaching Award while serving as a TA for a well-known, rigorous undergraduate computing module, and I recently stepped up as the sole TA for a postgraduate module, which was a valuable experience in structured mentorship.
+
+Outside of my academic work, I use my technical skills for community benefit and outreach. I enjoy contributing to the next generation of technologists by helping to spearhead AI-based curriculum development at a local robotics and coding academy. Also, I serve as the Data/AI Technical Lead for a youth-focused non-profit, helping to architect and guide Data and AI initiatives that empower young people from all walks of life to make informed career and education choices.
+
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
