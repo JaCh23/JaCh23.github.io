@@ -64,7 +64,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-first-runner-up-in-israeli-national-hackathon",
+            },},{id: "news-a-simple-inline-announcement",
+          title: 'A simple inline announcement.',
+          description: "",
+          section: "News",},{id: "news-first-runner-up-in-israeli-national-hackathon",
           title: 'First Runner-Up in Israeli National Hackathon',
           description: "",
           section: "News",handler: () => {
