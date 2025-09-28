@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Can You Hear Me? Automatic Speech Recognition Pipeline for Distress Intelligence
-description: with background image
+title: Can You Hear Me?
+description: Automatic Speech Recognition Pipeline for Distress Intelligence.
 img: assets/img/asr-distress.jpg
 importance: 1   
 category: 2025
