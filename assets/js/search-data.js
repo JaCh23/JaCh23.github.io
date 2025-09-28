@@ -68,11 +68,26 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-09-09-nrc/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
+            },},{id: "projects-can-you-hear-me-automatic-speech-recognition-pipeline-for-distress-intelligence",
+          title: 'Can You Hear Me? Automatic Speech Recognition Pipeline for Distress Intelligence',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/01-2025-asrDistress/";
+            },},{id: "projects-gogoguru-enhancing-motorists-communication-through-personalised-co-pilot",
+          title: 'GogoGuru - Enhancing Motorists Communication through Personalised Co-Pilot',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/04-2024-traffic-innochallenge/";
+            },},{id: "projects-project-recogneyes-have-you-seen-this-man-now-ai-has",
+          title: 'Project RecognEyes - Have You Seen This Man? Now, AI Has.',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/04-2025-recogneyes/";
+            },},{id: "projects-too-small-to-handle-a-holistic-evaluation-framework-towards-entity-resolution-under-constrained-context-windows",
+          title: 'Too Small to Handle? A Holistic Evaluation Framework towards Entity Resolution under Constrained...',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11-2024-LLMeval/";
             },},{
         id: 'social-email',
         title: 'email',
