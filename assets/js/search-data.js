@@ -75,24 +75,24 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-09-09-nrc/";
-            },},{id: "projects-can-you-hear-me-automatic-speech-recognition-pipeline-for-distress-intelligence",
-          title: 'Can You Hear Me? Automatic Speech Recognition Pipeline for Distress Intelligence',
-          description: "with background image",
+            },},{id: "projects-can-you-hear-me",
+          title: 'Can You Hear Me?',
+          description: "Automatic Speech Recognition Pipeline for Distress Intelligence.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/01-2025-asrDistress/";
-            },},{id: "projects-gogoguru-enhancing-motorists-communication-through-personalised-co-pilot",
-          title: 'GogoGuru - Enhancing Motorists Communication through Personalised Co-Pilot',
-          description: "with background image",
+            },},{id: "projects-gogoguru",
+          title: 'GogoGuru',
+          description: "Enhancing Motorists Communication through Personalised Co-Pilot.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/04-2024-traffic-innochallenge/";
-            },},{id: "projects-project-recogneyes-have-you-seen-this-man-now-ai-has",
-          title: 'Project RecognEyes - Have You Seen This Man? Now, AI Has.',
-          description: "with background image",
+            },},{id: "projects-project-recogneyes",
+          title: 'Project RecognEyes',
+          description: "Have You Seen This Man? Now, AI Has.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/04-2025-recogneyes/";
-            },},{id: "projects-too-small-to-handle-a-holistic-evaluation-framework-towards-entity-resolution-under-constrained-context-windows",
-          title: 'Too Small to Handle? A Holistic Evaluation Framework towards Entity Resolution under Constrained...',
-          description: "with background image",
+            },},{id: "projects-too-small-to-handle",
+          title: 'Too Small to Handle?',
+          description: "A Holistic Evaluation Framework towards Entity Resolution under Constrained Context Windows.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11-2024-LLMeval/";
             },},{
