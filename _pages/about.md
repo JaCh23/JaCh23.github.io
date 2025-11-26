@@ -26,7 +26,7 @@ announcements:
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
 #   limit: 3 # leave blank to include all the blog posts
 ---
-I am a recent Masters' Graduate looking to transition into AI Safety Research. I come from a Computing and Data Science background plus also a "Tech For Good" believer, having developed various AI-based solutions within the public sector.
+I am a recent Masters' Graduate looking to transition into AI Safety Research. I come from a Computing and Data Science background plus also a "Tech For Good" believer, having developed various AI-based solutions in the public sector.
 
 My shift into AI Safety grew naturally out of my technical work over the past few years - while working with many different AI systems and applications, I saw firsthand just how popular they were becoming. But despite all the excitement, I realized there was a huge amount of work needed to make sure these systems are truly reliable and trustworthy, with the biggest concern coming from the latest models opening a massive box of problems given how incredibly powerful they are, yet we do not fully understand its inner workings.
 
