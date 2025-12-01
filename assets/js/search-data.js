@@ -65,7 +65,7 @@ ninja.data = [{
               window.location.href = "/projects/04-2025-recogneyes.html";
             },},{id: "projects-too-small-to-handle",
           title: 'Too Small to Handle?',
-          description: "A Holistic Evaluation Framework towards Entity Resolution under Constrained Context Windows.",
+          description: "A Holistic Entity Resolution Evaluation Framework.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11-2024-LLMeval.html";
             },},{id: "projects-theory-of-minds-project",
