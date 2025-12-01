@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Too Small to Handle?
-description: A Holistic Evaluation Framework towards Entity Resolution under Constrained Context Windows.
+description: A Holistic Entity Resolution Evaluation Framework.
 img: assets/img/LLMeval_img.jpg
 importance: 1
 category: 2024
