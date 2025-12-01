@@ -70,7 +70,7 @@ ninja.data = [{
               window.location.href = "/projects/11-2024-LLMeval.html";
             },},{id: "projects-theory-of-minds-project",
           title: 'Theory of Minds Project',
-          description: "Composable Team Hierarchy Replication.",
+          description: "Composable Team Hierarchy Re-implementation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11-2025-TOMs-CTH.html";
             },},{
