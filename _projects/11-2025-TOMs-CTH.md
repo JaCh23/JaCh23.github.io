@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Theory of Minds Project
-description: Composable Team Hierarchy Paper Replication.
+description: Composable Team Hierarchy Replication.
 img: assets/img/toms-cth.png
 importance: 1   
 category: 2025
