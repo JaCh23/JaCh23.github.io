@@ -68,6 +68,11 @@ ninja.data = [{
           description: "A Holistic Evaluation Framework towards Entity Resolution under Constrained Context Windows.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11-2024-LLMeval.html";
+            },},{id: "projects-theory-of-minds-project",
+          title: 'Theory of Minds Project',
+          description: "Composable Team Hierarchy Replication.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11-2025-TOMs-CTH.html";
             },},{
         id: 'social-email',
         title: 'email',
