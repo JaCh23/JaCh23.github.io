@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-a-post-with-formatting-and-links",
+        },{id: "post-is-transformers-agi-occum-razor",
+        
+          title: "Is Transformers AGI Occum Razor",
+        
+        description: "I Am Not Convinced Yet",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/transformersOccumRazor/";
+          
+        },
+      },{id: "post-a-post-with-formatting-and-links",
         
           title: "a post with formatting and links",
         
