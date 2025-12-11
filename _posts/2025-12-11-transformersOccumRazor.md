@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Is Transformers AGI Occum Razor
-date: 2025-12-11 16:40:16
+date: 2025-12-10 00:01:01
 description: I Am Not Convinced Yet
 tags: formatting links
 categories: sample-posts
