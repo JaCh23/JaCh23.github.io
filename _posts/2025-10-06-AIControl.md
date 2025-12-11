@@ -1,0 +1,20 @@
+---
+layout: post
+title: A Case for AI Controls
+date: 2025-10-06 16:40:16
+description: 
+tags: formatting links
+categories: sample-posts
+---
+
+One of my interests lies in the field of AI control and its associated methodologies, focusing not just on capturing misaligned or scheming AI systems, but also on how we should react and take further, necessary action once a control failure is identified.
+
+My initial notion on AI safety aligned with the default skepticism: I believe AI systems are untrustable by default and require a strong methodology of safety cases and control measures to be safely deployed. This led me to appreciate Redwood's work on AI Control, which focuses on methodologies for how we react and take action after catching misaligned AIs, including specific techniques like distillation [1](https://www.lesswrong.com/posts/8KKujApx4g7FBm6hE/ai-safety-techniques-leveraging-distillation), untrusted monitoring [2](https://blog.redwoodresearch.org/p/how-to-prevent-collusion-when-using)[3](https://arxiv.org/abs/2312.06942), and the management of scheming agents [4](https://blog.redwoodresearch.org/p/handling-schemers-if-shutdown-is).
+
+However, I've encountered arguments that present a counter-point to this highly technical control focus. Key arguments against relying solely on safety cases include the unlikelihood of adoption by top AI companies [5](https://www.lesswrong.com/posts/neTbrpBziAsTH5Bn7/ai-companies-are-unlikely-to-make-high-assurance-safety), the risk that technical safety cases may not translate into tangible danger sufficient enough to drive practical, widespread action [5](https://www.lesswrong.com/posts/neTbrpBziAsTH5Bn7/ai-companies-are-unlikely-to-make-high-assurance-safety), and the view that focusing on risk reporting might be a more effective solution than safety cases [6](https://www.alignmentforum.org/posts/KMbZWcTvGjChw9ynD/focus-transparency-on-risk-reports-not-safety-cases).
+
+Despite these valid criticisms, I still strongly believe in the foundational merits and indirect benefits of safety cases. They provide a guaranteed, slow way to make progress [7](https://blog.redwoodresearch.org/p/takeaways-from-sketching-a-control) and force us to think critically about various threat models [7](https://blog.redwoodresearch.org/p/takeaways-from-sketching-a-control). Personally, they perhaps also help to ease the concern that we are operating an AI whose safety is inherently uncertain [6](https://www.alignmentforum.org/posts/KMbZWcTvGjChw9ynD/focus-transparency-on-risk-reports-not-safety-cases).
+
+Ultimately, I find it most fruitful to reshape the problem into how we can "pass the buck safely" [8](https://blog.redwoodresearch.org/p/how-might-we-safely-pass-the-buck) by developing AI into a trusted replacement for humans across complex, high-stakes tasks beyond research. This perspective is a core component of human-AI alignment, ensuring that as systems become more capable, their primary function is to efficiently serve human needs and advance our goals. By concentrating on creating AI that are trustworthy enough to take over human-level responsibilities, we shift the safety discussion from merely preventing catastrophe to achieving a future where AI seamlessly and reliably extends human capability.
+
+This shift also highlights one of the most significant open problems with regards to control measures: if the proposed solutions rely on a trusted model to resolve issues or work in conjunction with an untrusted one [2](https://blog.redwoodresearch.org/p/how-to-prevent-collusion-when-using)[3](https://arxiv.org/abs/2312.06942)[9](https://blog.redwoodresearch.org/p/ais-at-the-current-capability-level), how do we guarantee these trusted models are indeed trustworthy in the first place? What is the "base case" or foundational building block for alignment? At what standard, or safety case threshold [5](https://www.lesswrong.com/posts/neTbrpBziAsTH5Bn7/ai-companies-are-unlikely-to-make-high-assurance-safety), can we practically say an AI is safe enough for wide-scale, autonomous deployment?
