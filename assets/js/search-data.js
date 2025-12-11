@@ -30,20 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-",
+        },{id: "post-is-transformers-agi-39-s-occum-razor",
         
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/2025-09-07-AISafetyChallengesSG/";
-          
-        },
-      },{id: "post-is-transformers-agi-occum-razor",
-        
-          title: "Is Transformers AGI Occum Razor",
+          title: "Is Transformers AGI&#39;s Occum Razor?",
         
         description: "I Am Not Convinced Yet",
         section: "Posts",
@@ -72,6 +61,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/AIControl/";
+          
+        },
+      },{id: "post-my-humble-thoughts-collaboration-is-what-singapore-needs",
+        
+          title: "My Humble Thoughts - Collaboration is What Singapore Needs",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/AISafetyChallengesSG/";
           
         },
       },{id: "news-first-runner-up-in-israeli-national-hackathon",
