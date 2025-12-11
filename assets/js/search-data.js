@@ -30,15 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-test",
+        },{id: "post-a-post-with-formatting-and-links",
         
-          title: "Test",
+          title: "a post with formatting and links",
         
-        description: "",
+        description: "march &amp; april, looking forward to summer",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/test/";
+            window.location.href = "/blog/2015/test/";
           
         },
       },{id: "news-first-runner-up-in-israeli-national-hackathon",
