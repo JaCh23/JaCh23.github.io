@@ -30,11 +30,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-is-transformers-agi-39-s-occum-razor",
+        },{id: "post-is-transformers-agi-39-s-occum-razor-i-39-m-not-convinced-yet",
         
-          title: "Is Transformers AGI&#39;s Occum Razor?",
+          title: "Is Transformers AGI&#39;s Occum Razor? I&#39;m Not Convinced, Yet",
         
-        description: "I Am Not Convinced Yet",
+        description: "",
         section: "Posts",
         handler: () => {
           
