@@ -74,17 +74,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/AIControl/";
           
         },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/test/";
-          
-        },
       },{id: "news-first-runner-up-in-israeli-national-hackathon",
           title: 'First Runner-Up in Israeli National Hackathon',
           description: "",
