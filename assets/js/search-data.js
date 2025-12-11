@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-is-transformers-agi-occum-razor",
+        },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/2025-10-05-SgAISafetyChallenges/";
+          
+        },
+      },{id: "post-is-transformers-agi-occum-razor",
         
           title: "Is Transformers AGI Occum Razor",
         
@@ -39,6 +50,28 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/transformersOccumRazor/";
+          
+        },
+      },{id: "post-a-case-for-ai-controls",
+        
+          title: "A Case for AI Controls",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/AIControl/";
+          
+        },
+      },{id: "post-ai-safety-and-regulations-are-two-sides-of-the-same-coin",
+        
+          title: "AI Safety And Regulations Are Two Sides of the Same Coin",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/AISafetyRegulations/";
           
         },
       },{id: "post-a-post-with-formatting-and-links",
