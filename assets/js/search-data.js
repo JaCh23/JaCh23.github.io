@@ -52,17 +52,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/transformersOccumRazor/";
           
         },
-      },{id: "post-a-case-for-ai-controls",
-        
-          title: "A Case for AI Controls",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/AIControl/";
-          
-        },
       },{id: "post-ai-safety-and-regulations-are-two-sides-of-the-same-coin",
         
           title: "AI Safety And Regulations Are Two Sides of the Same Coin",
@@ -72,6 +61,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/AISafetyRegulations/";
+          
+        },
+      },{id: "post-a-case-for-ai-controls",
+        
+          title: "A Case for AI Controls",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/AIControl/";
           
         },
       },{id: "post-a-post-with-formatting-and-links",
