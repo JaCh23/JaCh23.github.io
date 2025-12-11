@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AI Safety And Regulations Are Two Sides of the Same Coin
-date: 2025-10-05 16:40:16
+date: 2025-12-07 16:40:16
 description: 
 tags: formatting links
 categories: sample-posts
