@@ -17,7 +17,7 @@ ninja.data = [{
             window.location.href = "/news/";
           },
         },{id: "nav-blog",
-          title: "blog",
+          title: "Blog",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "news-first-runner-up-in-israeli-national-hackathon",
+        },{id: "post-a-post-with-formatting-and-links",
+        
+          title: "a post with formatting and links",
+        
+        description: "march &amp; april, looking forward to summer",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/test/";
+          
+        },
+      },{id: "news-first-runner-up-in-israeli-national-hackathon",
           title: 'First Runner-Up in Israeli National Hackathon',
           description: "",
           section: "News",handler: () => {
