@@ -3,8 +3,8 @@ layout: post
 title: AI Safety And Regulations Are Two Sides of the Same Coin
 date: 2025-12-07 16:40:16
 description: 
-tags: formatting links
-categories: sample-posts
+tags: 
+categories: 
 ---
 
 I believe the notion of AI regulation [[1](https://dl.acm.org/doi/pdf/10.1145/3653670)] [[2](https://arxiv.org/pdf/2306.12609)] is closely related to AI Safety and Trust as a whole, since it aims to address the accountability aspect on top of the explainability concepts addressed, as well as towards ensuring trustworthiness. Just like the public sector checklist, there have been frequent and common comparisons of AI towards the airline industry, which underpin the critical focus of converging towards long-term reliable and stable systems based on the fundamentals of accountability, verifiability, and transparency.

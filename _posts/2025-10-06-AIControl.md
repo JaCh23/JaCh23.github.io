@@ -3,8 +3,8 @@ layout: post
 title: A Case for AI Controls
 date: 2025-10-06 16:40:16
 description: 
-tags: formatting links
-categories: sample-posts
+tags: 
+categories: 
 ---
 
 One of my interests lies in the field of AI control and its associated methodologies, focusing not just on capturing misaligned or scheming AI systems, but also on how we should react and take further, necessary action once a control failure is identified.
