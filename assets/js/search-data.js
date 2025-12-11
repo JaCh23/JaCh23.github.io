@@ -38,7 +38,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-10-05-SgAISafetyChallenges/";
+            window.location.href = "/blog/2025/2025-09-07-AISafetyChallengesSG/";
           
         },
       },{id: "post-is-transformers-agi-occum-razor",
