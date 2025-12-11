@@ -49,7 +49,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2015/test/";
+            window.location.href = "/blog/2025/test/";
           
         },
       },{id: "news-first-runner-up-in-israeli-national-hackathon",
