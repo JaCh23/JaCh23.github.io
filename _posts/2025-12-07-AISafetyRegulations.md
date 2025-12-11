@@ -18,12 +18,14 @@ the intended values - and to that, various literates have argued inabilities of 
 existing preference-based frameworks or value-as-texts systems [[10](https://arxiv.org/abs/2512.03399)] [[11](https://arxiv.org/abs/2408.16984)]. Yet, while these critiques have been brought up, this is still an open research question with much room to explore especially towards capturing these more abstract, thicker values at
 the core of society [[10](https://arxiv.org/abs/2512.03399)].
 
-## So, where can we go from here?
+### So, where can we go from here?
 
 The following two directions are proposed, focusing on bridging AI alignment concepts with practical implementation and investigating the complex dynamics of Human-AI decision-making.
 
-## Pillar 1. Advancing Values Alignment
+### Pillar 1. Advancing Values Alignment
+
 Future research in Values Alignment should focus on two complementary paths to enhance the practical and conceptual maturity of existing work. The first path involves extending current methodologies to yield more concrete, implementable suggestions for integrating ethical and social values into existing AI architectures [[11](https://arxiv.org/abs/2408.16984)]. The second path seeks to conceptualize and operationalize abstract principles derived from foundational studies [[8](https://arxiv.org/abs/2405.06624)][[10](https://arxiv.org/abs/2512.03399)], transforming vague or high-level concepts into measurable and practical mechanisms that can be integrated into AI systems.
 
-## Pillar 2. Interdisciplinary Investigation of Human-AI Systems
+### Pillar 2. Interdisciplinary Investigation of Human-AI Systems
+
 This direction targets the interdisciplinary domain of Human-AI decision-making by exploring systemic limitations within modern AI. This investigation can proceed through two main avenues: either by employing cognitive analysis techniques to probe the constraints and biases inherent in existing AI systems [[7](https://arxiv.org/abs/2502.11881)], or by examining the dynamics and overall effectiveness of integrated Human-AI teams and systems [[12](https://dl.acm.org/doi/pdf/10.1145/3677081)].
