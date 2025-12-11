@@ -3,8 +3,8 @@ layout: post
 title: Is Transformers AGI's Occum Razor? I'm Not Convinced, Yet.
 date: 2025-12-11 16:40:16
 description:
-# tags: formatting links
-# categories: sample-posts
+tags: formatting links
+categories: sample-posts
 ---
 
 The Transformer architecture, with its powerful attention mechanism, has exploded onto the scene, fundamentally reshaping AI through its prominent sequence modeling performance. Meanwhile, Occam's Razor is fundamentally important because it guides us toward the simplest explanation that fits all available evidence, minimizing unnecessary complexity. In the realm of science and AI, this means prioritizing foundational, elegant theories that have maximum explanatory power with minimum assumptions.
