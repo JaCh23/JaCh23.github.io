@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
+        },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
         },{id: "nav-projects",
           title: "Projects",
           description: "",
@@ -27,52 +34,52 @@ ninja.data = [{
           title: 'First Runner-Up in Israeli National Hackathon',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/2022-06-30-hackru.html";
+              window.location.href = "/news/2022-06-30-hackru/";
             },},{id: "news-invitation-to-judging-panel-of-cybersecurity-and-ai-hackathon",
           title: 'Invitation to Judging Panel of Cybersecurity and AI Hackathon',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/2025-04-11-aisp.html";
+              window.location.href = "/news/2025-04-11-aisp/";
             },},{id: "news-primary-teaching-assistant-for-post-graduate-module",
           title: 'Primary Teaching Assistant for Post-graduate Module',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/2025-04-16-storytellingta.html";
+              window.location.href = "/news/2025-04-16-storytellingta/";
             },},{id: "news-mentorship-national-innovation-challenge-top-8-finalist-and-awarded-5-000",
           title: 'Mentorship - National Innovation Challenge Top 8 Finalist and Awarded $5,000',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/2025-04-30-innochallenge.html";
+              window.location.href = "/news/2025-04-30-innochallenge/";
             },},{id: "news-mentorship-national-robotics-competition-national-top-3-placing",
           title: 'Mentorship - National Robotics Competition National Top 3 Placing',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/2025-09-09-nrc.html";
+              window.location.href = "/news/2025-09-09-nrc/";
             },},{id: "projects-can-you-hear-me",
           title: 'Can You Hear Me?',
           description: "Automatic Speech Recognition Pipeline for Distress Intelligence.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/01-2025-asrDistress.html";
+              window.location.href = "/projects/01-2025-asrDistress/";
             },},{id: "projects-gogoguru",
           title: 'GogoGuru',
           description: "Enhancing Motorists Communication through Personalised Co-Pilot.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/04-2024-traffic-innochallenge.html";
+              window.location.href = "/projects/04-2024-traffic-innochallenge/";
             },},{id: "projects-project-recogneyes",
           title: 'Project RecognEyes',
           description: "Have You Seen This Man? Now, AI Has.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/04-2025-recogneyes.html";
+              window.location.href = "/projects/04-2025-recogneyes/";
             },},{id: "projects-too-small-to-handle",
           title: 'Too Small to Handle?',
           description: "A Holistic Entity Resolution Evaluation Framework.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/11-2024-LLMeval.html";
+              window.location.href = "/projects/11-2024-LLMeval/";
             },},{id: "projects-theory-of-minds-project",
           title: 'Theory of Minds Project',
           description: "Composable Team Hierarchy Re-implementation.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/11-2025-TOMs-CTH.html";
+              window.location.href = "/projects/11-2025-TOMs-CTH/";
             },},{
         id: 'social-email',
         title: 'email',
