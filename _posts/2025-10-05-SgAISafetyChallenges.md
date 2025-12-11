@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Half-Baked, Humble Thoughts: Collaboration is What Singapore Needs
+title: My Humble Thoughts: Collaboration is What Singapore Needs
 date: 2025-10-05 16:40:16
 description: Collaboration and Addressing Interpretability May Be Our Best Next Steps.
 tags: formatting links
