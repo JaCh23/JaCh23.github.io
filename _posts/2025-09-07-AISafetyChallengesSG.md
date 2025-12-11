@@ -1,8 +1,8 @@
 ---
 layout: post
-title: My Humble Thoughts: Collaboration is What Singapore Needs
+title: My Humble Thoughts - Collaboration is What Singapore Needs
 date: 2025-09-07 16:40:16
-description: Collaboration and Addressing Interpretability May Be Our Best Next Steps.
+description:
 tags: formatting links
 categories: sample-posts
 ---
