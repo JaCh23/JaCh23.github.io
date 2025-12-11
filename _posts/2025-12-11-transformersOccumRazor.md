@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Is Transformers AGI Occum Razor
-date: 2025-12-11 16:40:16
-description: I'm Not Convinced Yet
+title: a post with formatting and links
+date: 2025-03-15 16:40:16
+description: march & april, looking forward to summer
 tags: formatting links
 categories: sample-posts
 ---
