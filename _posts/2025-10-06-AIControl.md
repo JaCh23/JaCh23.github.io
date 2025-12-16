@@ -3,7 +3,7 @@ layout: post
 title: A Case for AI Controls
 date: 2025-10-06 16:40:16
 description: 
-tags: 
+tags: mid-tech
 categories: 
 ---
 

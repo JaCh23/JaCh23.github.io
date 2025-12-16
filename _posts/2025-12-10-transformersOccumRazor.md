@@ -3,7 +3,7 @@ layout: post
 title: Is Transformers AGI's Occum Razor? I'm Not Convinced, Yet
 date: 2025-12-10 00:01:01
 description: 
-tags: 
+tags: mid-tech 
 categories: 
 ---
 

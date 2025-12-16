@@ -3,7 +3,7 @@ layout: post
 title: The Illusion of Alignment - Are We Capturing What We Sought Out To?
 date: 2025-12-14 00:01:01
 description: 
-tags: 
+tags: high-tech
 categories: 
 ---
 

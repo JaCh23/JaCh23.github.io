@@ -3,7 +3,7 @@ layout: post
 title: My Humble Thoughts - Collaboration is What Singapore Needs
 date: 2025-09-07 16:40:16
 description:
-tags: 
+tags: low-tech
 categories: 
 ---
 
