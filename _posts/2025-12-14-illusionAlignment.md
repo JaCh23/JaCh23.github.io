@@ -11,7 +11,7 @@ The ongoing pursuit of Artificial General Intelligence (AGI) is shadowed by a fo
 
 ### 1. Optimization as The Alignment Mechanism
 
-Once the Large Language Models (LLMs) —the "Stochastic Parrots"— are trained on vast amounts of raw data, the alignment phase begins. The core method for making these models behave acceptably is Reinforcement Learning from Human Feedback (RLHF). This process transforms the model from a simple next-token predictor into an instrumentally rational agent. It is designed to maximize a predefined objective function, known as the Reward Model, which acts as a proxy for human values and preferences.
+Once the Large Language Models (LLMs) — the "Stochastic Parrots" — are trained on vast amounts of raw data, the alignment phase begins. The core method for making these models behave acceptably is Reinforcement Learning from Human Feedback (RLHF). This process transforms the model from a simple next-token predictor into an instrumentally rational agent. It is designed to maximize a predefined objective function, known as the Reward Model, which acts as a proxy for human values and preferences.
 
 The entire procedure is fundamentally rooted in Expected Utility Theory (EUT). The agent's goal is then expressed mathematically as the optimization of its policy to maximize the expected value of the generated output based on the reward function.
 
