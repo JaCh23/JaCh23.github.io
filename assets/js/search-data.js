@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-is-transformers-agi-39-s-occum-razor-i-39-m-not-convinced-yet",
+        },{id: "post-the-illusion-of-alignment-are-we-capturing-what-we-sought-out-to",
+        
+          title: "The Illusion of Alignment - Are We Capturing What We Sought Out To?...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/illusionAlignment/";
+          
+        },
+      },{id: "post-is-transformers-agi-39-s-occum-razor-i-39-m-not-convinced-yet",
         
           title: "Is Transformers AGI&#39;s Occum Razor? I&#39;m Not Convinced, Yet",
         
