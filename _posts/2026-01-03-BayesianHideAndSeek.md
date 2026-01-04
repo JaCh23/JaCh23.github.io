@@ -24,9 +24,6 @@ The Objectives of the game are relatively simple:
         {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-overview-2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-<div class="caption">
-    Initial game state (left) where seekers ask preliminary questions (right) to locate the hider within the game zone.
-</div>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -37,10 +34,10 @@ The Objectives of the game are relatively simple:
     </div>
 </div>
 <div class="caption">
-    Seekers and hider(s) engaged in a continuous question-answer format (left) to slowly narrow down the hider's hiding area (right).
+    (Left to Right, Top to Down) Initial game state where seekers ask preliminary questions to locate the hider within the game zone; seekers and hider(s) engaged in a continuous question-answer format to slowly narrow down to reveal the hider's hiding area (bottom right).
 </div>
 
-Reference (both series of images): [[Jet Lag: The Game - Hide And Seek Switzerland, Season 9 Episode 1](https://www.youtube.com/watch?v=E8UmTJVDnUI)]
+Reference: [[Jet Lag: The Game - Hide And Seek Switzerland, Season 9 Episode 1](https://www.youtube.com/watch?v=E8UmTJVDnUI)]
 
 ## 2. Delving into The Game
 
