@@ -32,7 +32,7 @@ The Objectives of the game are relatively simple:
     </div>
 </div>
 <div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+    Initial game state (left) where seekers ask preliminary questions (right) to locate the hider within the game zone.
 </div>
 
 <div class="row mt-3">
@@ -44,7 +44,7 @@ The Objectives of the game are relatively simple:
     </div>
 </div>
 <div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+    Seekers and hider(s) engaged in a continuous question-answer format (left) to slowly narrow down the hider's hiding area (right).
 </div>
 
 ## 2. Delving into The Game
@@ -56,12 +56,6 @@ In practice, the game moves from broad geographic partitions to granular "street
 - **Direct Elimination:** A binary search approach. "Are you North of this line?" This slices the map in half, regardless of the hider's cleverness.
 - **Aggressive vs. Passive:** Aggressive seekers move early on low information, betting on intuition. Passive seekers wait for high-confidence clues to avoid wasting travel time.
 
-**Hider Strategies:**
-
-- **Truthful Misdirection:** Providing a clue that is factually 100% true but contextually misleading. One example is if asked “Take a photo of the nearest body of water”, the hider might zoom in so closely on a water body that it’s impossible to tell if it’s a small pond or a lake or even an ocean.
-- **Information Minimization:** Giving essentially useless answers where possible, while still satisfying the minimum criteria of the respective question. If asked a broader question such as “Take a photo of 5 buildings”, a hider might try to find a cluster of buildings that are relatively commonplace, making it challenging to determine whether it is within an urban dense area or city suburbs or even a small town.
-
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-misdirect-example-1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -71,8 +65,13 @@ In practice, the game moves from broad geographic partitions to granular "street
     </div>
 </div>
 <div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+    Misdirection strategy (left): Hider used similar geographical features and misleading clues to guide seekers towards alternative area, when hider is actually located in tiny red circle; Google Maps image for further clarity (right).
 </div>
+
+**Hider Strategies:**
+
+- **Truthful Misdirection:** Providing a clue that is factually 100% true but contextually misleading. One example is if asked “Take a photo of the nearest body of water”, the hider might zoom in so closely on a water body that it’s impossible to tell if it’s a small pond or a lake or even an ocean.
+- **Information Minimization:** Giving essentially useless answers where possible, while still satisfying the minimum criteria of the respective question. If asked a broader question such as “Take a photo of 5 buildings”, a hider might try to find a cluster of buildings that are relatively commonplace, making it challenging to determine whether it is within an urban dense area or city suburbs or even a small town.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -83,7 +82,7 @@ In practice, the game moves from broad geographic partitions to granular "street
     </div>
 </div>
 <div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+    Ambiguity strategy: Despite hider clearly being located in suburbs area (left), hider chose to capture an image that could equally represent towns or cities (right) to render information less meaningful for seekers.
 </div>
 
 
@@ -129,9 +128,6 @@ A possible, typical gameplay may be depicted as follows. The seekers ask a varie
         {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-simple-3.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-<div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
-</div>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -144,7 +140,7 @@ A possible, typical gameplay may be depicted as follows. The seekers ask a varie
     </div>
 </div>
 <div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+    (Left to Right, Top to Down) Seekers' Mental Model: Hiding locations being narrowed down as reflected by various options increasing in probability in phases, with final true hiding location highlighted in yellow (bottom right).
 </div>
 
 #### 3.2.2. Hider Tactics
@@ -166,7 +162,7 @@ In probability terms, this could be represented as a deliberate attempt to shift
     </div>
 </div>
 <div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+    Misdirection strategy: In contrast to the true hiding location (left), to mislead seekers by increasing the probability of alternative options in salmon pink (right).
 </div>
 
 
@@ -187,7 +183,7 @@ In probability terms, the hider provides as redundant data as possible, leading 
     </div>
 </div>
 <div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+    Ambiguity strategy: To provide ambigious information so as to induce minimal changes in the posteriors or to increase the probabilities of all options equally (right).
 </div>
 
 #### 3.2.3. Seeker Tactics
@@ -207,9 +203,6 @@ Such an approach ensures a search process with high-confidence, which typically 
         {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-slow-2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-<div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
-</div>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -222,13 +215,13 @@ Such an approach ensures a search process with high-confidence, which typically 
     </div>
 </div>
 <div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+    (Left to Right, Top to Down) Slow and Steady Approach: Adopting a high-confidence search process which entails eliminating alternative options in phases.
 </div>
 
 
 **Fast-And-Furious**
 
-Serving as the relative opposite of the above approach, where seekers who adopt this strategy typically desire to aim to find the hider as soon as possible. This requires greater risk and managing of uncertainity, namely depicted by seekers who "commit" or zoom in on any particular location (or group of locations) with non-guaranteed certainity. While it does pay off sometimes in the form of a rapid search process, but it also has yielded instances where seekers made a massive error. 
+Serving as the relative opposite of the above approach, where seekers who adopt this strategy typically desire to aim to find the hider as soon as possible. This requires greater risk and managing of uncertainity, namely depicted by seekers who "commit" or zoom in on a particular location (or group of locations) once it surpasses a self-defined "confidence" threshold value, although it poses as non-guaranteed certainity. While it does pay off sometimes in the form of a rapid search process, but it also has yielded instances where seekers made a massive error. 
 
 Do note that while the image shows numerous candidate locations that lie above the threshold with equal uniform probability, in reality there could be tiny fluctuations that dictate a preference order among options. Possible selection strategies can then be adopted, with an arguably common approach to select one-by-one in descending order of probability.
 
@@ -241,7 +234,7 @@ Do note that while the image shows numerous candidate locations that lie above t
     </div>
 </div>
 <div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+    Fast and Furious Approach: A riskier, time-effective strategy involving seekers committing to options satisfying a self-defined confidence threshold (right) without guraranteed certainity.
 </div>
 
 
