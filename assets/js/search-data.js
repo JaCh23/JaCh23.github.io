@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-the-illusion-of-alignment-are-we-capturing-what-we-sought-out-to",
+        },{id: "post-bayesian-hide-and-seek-anyone",
+        
+          title: "Bayesian Hide-And-Seek, Anyone?",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/BayesianHideAndSeek/";
+          
+        },
+      },{id: "post-the-illusion-of-alignment-are-we-capturing-what-we-sought-out-to",
         
           title: "The Illusion of Alignment - Are We Capturing What We Sought Out To?...",
         
