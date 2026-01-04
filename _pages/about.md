@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href="https://www.aisafety.sg/" target="_blank">SASH</a> AI Safety Research. Robotics Academy AI Master Trainer/Competition Head Coach. <a href="https://advisory.sg/" target="_blank">Advisory.sg</a> Data/AI Technical Lead.
+subtitle: <a href="https://www.aisafety.sg/" target="_blank">SASH</a> AI Safety Research. NUS MSc Business Analytics. <a href="https://advisory.sg/" target="_blank">Advisory.sg</a> Data/AI Technical Lead.
 
 profile:
   align: left
