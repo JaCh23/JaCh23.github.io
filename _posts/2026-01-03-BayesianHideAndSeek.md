@@ -23,6 +23,29 @@ The Objectives of the game are relatively simple:
 - **The Seekers:** Their goal is to collapse the search area and "lock down" the hider’s location. While the show awards the win to the longest run, for any individual round, the seekers are attempting to find the hider in minimal time.
 - **The Hider(s):** Their job is to stall and delay the seekers for as long as possible, while truthfully answering the seeker’s various questions. They also get to draw various cards in the game as rewards for answering the questions, which include benefits like additional time bonuses and curses (tasks the seekers have to complete before asking further questions).
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-overview-1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-overview-2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-overview-3.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-overview-4.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+</div>
 
 ## 2. Delving into The Game
 
@@ -37,6 +60,31 @@ In practice, the game moves from broad geographic partitions to granular "street
 
 - **Truthful Misdirection:** Providing a clue that is factually 100% true but contextually misleading. One example is if asked “Take a photo of the nearest body of water”, the hider might zoom in so closely on a water body that it’s impossible to tell if it’s a small pond or a lake or even an ocean.
 - **Information Minimization:** Giving essentially useless answers where possible, while still satisfying the minimum criteria of the respective question. If asked a broader question such as “Take a photo of 5 buildings”, a hider might try to find a cluster of buildings that are relatively commonplace, making it challenging to determine whether it is within an urban dense area or city suburbs or even a small town.
+
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-misdirect-example-1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-misdirect-example-2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-ambiguity-example-2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-ambiguity-example-3.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+</div>
 
 
 ## 3.1. Bayesian Theory, Anyone?
@@ -69,23 +117,30 @@ Without too much technicalities (for now), let’s assume the various sectors (o
 
 #### 3.2.1. A Typical Standard Gameplay
 
-A possible, typical gameplay may be depicted as follows.
+A possible, typical gameplay may be depicted as follows. The seekers ask a variety of questions, and with each question is able to hone in on various options which narrows the possibilities.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-simple-1.png" class="img-fluid rounded z-depth-1" %}
+
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-simple-2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-simple-2.png" class="img-fluid rounded z-depth-1" %}
+
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-simple-3.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-simple-4.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-simple-3.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-simple-4.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-simple-5.png" class="img-fluid rounded z-depth-1" %}
+
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-simple-5.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -102,13 +157,12 @@ In probability terms, this could be represented as a deliberate attempt to shift
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-goal.png" class="img-fluid rounded z-depth-1" %}
+
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-goal.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-misdirect-1.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-misdirect-2.png" class="img-fluid rounded z-depth-1" %}
+
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-misdirect-2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -124,13 +178,12 @@ In probability terms, the hider provides as redundant data as possible, leading 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-goal.png" class="img-fluid rounded z-depth-1" %}
+
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-ambiguity-1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-ambiguity-1.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-ambiguity-2.png" class="img-fluid rounded z-depth-1" %}
+
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-ambiguity-2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -146,16 +199,26 @@ Such an approach ensures a search process with high-confidence, which typically 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-slow-1.png" class="img-fluid rounded z-depth-1" %}
+
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-slow-1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-slow-2.png" class="img-fluid rounded z-depth-1" %}
+
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-slow-2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-slow-3.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-slow-3.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-slow-4.png" class="img-fluid rounded z-depth-1" %}
+
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-slow-4.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -171,13 +234,10 @@ Do note that while the image shows numerous candidate locations that lie above t
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-goal.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-hasty-1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-hasty-1.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-hasty-2.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-hasty-2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
