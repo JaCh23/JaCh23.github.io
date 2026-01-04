@@ -69,8 +69,28 @@ Without too much technicalities (for now), let’s assume the various sectors (o
 
 #### 3.2.1. A Typical Standard Gameplay
 
-(WIP)
+A possible, typical gameplay may be depicted as follows.
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-simple-1.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-simple-2.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-simple-3.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-simple-4.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-simple-5.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+</div>
 
 #### 3.2.2. Hider Tactics
 
@@ -80,6 +100,21 @@ Recap: Providing a clue that is factually true but contextually misleading. One 
 
 In probability terms, this could be represented as a deliberate attempt to shift the seeker’s high-confidence to incorrect location(s).
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-goal.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-misdirect-1.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-misdirect-2.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+</div>
+
 
 **Ambiguity**
 
@@ -87,7 +122,20 @@ Recap: Giving essentially useless answers where possible, while still satisfying
 
 In probability terms, the hider provides as redundant data as possible, leading to the seeker’s posterior remaining minimally changed or even totally unchanged. In turn, the seeker remains paralyzed, and the hider gains time.
 
-
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-goal.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-ambiguity-1.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-ambiguity-2.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+</div>
 
 #### 3.2.3. Seeker Tactics
 
@@ -95,12 +143,46 @@ In probability terms, the hider provides as redundant data as possible, leading 
 
 Such an approach ensures a search process with high-confidence, which typically entails evidence that can completely eliminate certain possibilities. While it could be argued as overly conservative, but it offers seekers an efficient and clean approach with minimal backtracking on earlier clues.
 
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-slow-1.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-slow-2.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-slow-3.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-slow-4.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+</div>
+
+
 **Fast-And-Furious**
 
 Serving as the relative opposite of the above approach, where seekers who adopt this strategy typically desire to aim to find the hider as soon as possible. This requires greater risk and managing of uncertainity, namely depicted by seekers who "commit" or zoom in on any particular location (or group of locations) with non-guaranteed certainity. While it does pay off sometimes in the form of a rapid search process, but it also has yielded instances where seekers made a massive error. 
 
 Do note that while the image shows numerous candidate locations that lie above the threshold with equal uniform probability, in reality there could be tiny fluctuations that dictate a preference order among options. Possible selection strategies can then be adopted, with an arguably common approach to select one-by-one in descending order of probability.
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-goal.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-hasty-1.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bayesianHideAndSeek/bhns-hasty-2.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+</div>
 
 
 ## 4. The Technical Part, Anyone?
