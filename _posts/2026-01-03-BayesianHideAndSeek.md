@@ -75,12 +75,14 @@ Without too much technicalities (for now), let’s assume the various sectors (o
 #### 3.2.2. Hider Tactics
 
 **Misdirection**
+
 Recap: Providing a clue that is factually true but contextually misleading. One example is if asked “Take a photo of the nearest body of water”, the hider might zoom in so closely on a water body that it’s impossible to tell if it’s a small pond or a lake or even an ocean.
 
 In probability terms, this could be represented as a deliberate attempt to shift the seeker’s high-confidence to incorrect location(s).
 
 
 **Ambiguity**
+
 Recap: Giving essentially useless answers where possible, while still satisfying the minimum criteria of the respective question. If asked a broader question such as “Take a photo of 5 buildings”, a hider might try to find a cluster of buildings that are relatively commonplace, making it challenging to determine whether it is within an urban dense area or city suburbs or even a small town.
 
 In probability terms, the hider provides as redundant data as possible, leading to the seeker’s posterior remaining minimally changed or even totally unchanged. In turn, the seeker remains paralyzed, and the hider gains time.
@@ -90,10 +92,14 @@ In probability terms, the hider provides as redundant data as possible, leading 
 #### 3.2.3. Seeker Tactics
 
 **Slow-And-Steady**
+
 Such an approach ensures a search process with high-confidence, which typically entails evidence that can completely eliminate certain possibilities. While it could be argued as overly conservative, but it offers seekers an efficient and clean approach with minimal backtracking on earlier clues.
 
 **Fast-And-Furious**
+
 Serving as the relative opposite of the above approach, where seekers who adopt this strategy typically desire to aim to find the hider as soon as possible. This requires greater risk and managing of uncertainity, namely depicted by seekers who "commit" or zoom in on any particular location (or group of locations) with non-guaranteed certainity. While it does pay off sometimes in the form of a rapid search process, but it also has yielded instances where seekers made a massive error. 
+
+Do note that while the image shows numerous candidate locations that lie above the threshold with equal uniform probability, in reality there could be tiny fluctuations that dictate a preference order among options. Possible selection strategies can then be adopted, with an arguably common approach to select one-by-one in descending order of probability.
 
 
 
@@ -110,8 +116,9 @@ We define the environment as a set of discrete, finite potential hiding location
 
 $$
 K_N = \bigcup_{i=1}^{N} E_i
-$$ , 
+$$ 
 
+Where:
 - $E_i$: Represents an individual piece of evidence (the $i$-th question and answer pair).
 - $\bigcup_{i=1}^{N}$: The aggregation of all evidence from the first turn up to the current turn $N$.
 - $K_N$: The resulting Knowledge base that the Seekers use to then perform their Bayesian update.
@@ -134,8 +141,9 @@ The update to the Posterior Distribution is represented proportionally:
 
 $$
 P(g \mid K_{N+1}) \propto P(E_{N+1} \mid g) \cdot P(g \mid K_N)
-$$ ,
+$$
 
+Where:
 - **$P(g \mid K_{N+1})$ (The New Posterior):** The probability that the Hider is at location $g$ after integrating the latest clue $E_{N+1}$ into the existing knowledge base.
 - **$P(E_{N+1} \mid g)$ (The Likelihood):** The probability of receiving the specific answer $E_{N+1}$ if the Hider were truly located at $g$.
 - **$P(g \mid K_N)$ (The Current Prior):** The Seeker's existing belief distribution, which was established based on the knowledge base up to turn $N$.
