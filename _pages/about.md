@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href="https://www.aisafety.sg/" target="_blank">SASH</a> AI Safety Research. NUS MSc Business Analytics. <a href="https://advisory.sg/" target="_blank">Advisory.sg</a> Data/AI Technical Lead.
+subtitle: <a href="https://www.aisafety.sg/" target="_blank">SASH</a> AI Safety Research. Robotics Academy AI Master Trainer/Competition Head Coach. <a href="https://advisory.sg/" target="_blank">Advisory.sg</a> Data/AI Technical Lead.
 
 profile:
   align: left
@@ -30,7 +30,7 @@ I am a recent Masters' Graduate looking to transition into AI Safety Research. I
 
 My shift into AI Safety grew naturally out of my technical work over the past few years - while working with many different AI systems and applications, I saw firsthand just how popular they were becoming. But despite all the excitement, I realized there was a huge amount of work needed to make sure these systems are truly reliable and trustworthy, with the biggest concern coming from the latest models opening a massive box of problems given how incredibly powerful they are, yet we do not fully understand its inner workings.
 
-This realization is what directed my focus towards AI Safety. Since then, I’ve been engaged with the [local AI Safety community](https://www.aisafety.sg/) and picking up various upskilling courses, like the [ENAIS](https://www.enais.co/) AI Alignment course and Cooperative AI research module under Prof [Tan Zhi-Xuan](https://ztangent.github.io/).
+This realization is what directed my focus towards AI Safety. Since then, I’ve been engaged with the [local AI Safety community](https://www.aisafety.sg/) and picking up various upskilling courses, like the [ENAIS](https://www.enais.co/) AI Alignment course and Cooperative AI research module under Prof Tan Zhi-Xuan.
 
 My experiences have helped me develop as a dedicated generalist, someone who enjoys contributing across various technical and leadership domains. This cross-functional mindset is grounded in a strong academic foundation, where I was fortunate enough to be awarded an accelerated direct Masters scholarship (top 3% of cohort) and offered a CS PhD at a top 10 institution. This foundation, alongside a belief in teamwork, has led to some rewarding practical outcomes. For example, I had the opportunity to [lead a team that secured 1st runner-up in a national hackathon during my year abroad](..\news\2022-06-30-hackru). More recently, I was grateful for the chance to [mentor a team of juniors at a national innovation challenge, and it was rewarding to see them reach a Top 8 national finish and be awarded $5,000](..\news\2025-04-30-innochallenge). This commitment to building and contributing also fueled my early entrepreneurial experience as a student co-founder, which successfully secured a capital grant of $10,000.
 
