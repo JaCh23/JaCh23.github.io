@@ -7,13 +7,6 @@ tags: mid-tech
 categories: 
 ---
 
-
-
-<!-- or how we react and take action after catching misaligned AIs, including specific techniques like distillation [[1](https://www.lesswrong.com/posts/8KKujApx4g7FBm6hE/ai-safety-techniques-leveraging-distillation)], untrusted monitoring [[2](https://blog.redwoodresearch.org/p/how-to-prevent-collusion-when-using)][[3](https://arxiv.org/abs/2312.06942)], and the management of scheming agents [[4](https://blog.redwoodresearch.org/p/handling-schemers-if-shutdown-is)].
-
- -->
-
-
 ## 1. General Game Summary: Hide and Seek
 
 For those who haven’t seen the "Hide and Seek" format of *Jet Lag: The Game*, the premise is simple: One person hides in a massive geographic "endzone" (like all of Switzerland), and the others have to find them. The hider stays put, but as time passes, they must answer questions or provide clues. The longer they stay hidden, the more points they earn.
@@ -47,6 +40,8 @@ The Objectives of the game are relatively simple:
     Seekers and hider(s) engaged in a continuous question-answer format (left) to slowly narrow down the hider's hiding area (right).
 </div>
 
+Reference (both series of images): [[Jet Lag: The Game - Hide And Seek Switzerland, Season 9 Episode 1](https://www.youtube.com/watch?v=E8UmTJVDnUI)]
+
 ## 2. Delving into The Game
 
 In practice, the game moves from broad geographic partitions to granular "street-level" hunting. Across the various seasons of Jet Lag, some more common strategies emerge.
@@ -68,6 +63,8 @@ In practice, the game moves from broad geographic partitions to granular "street
     Misdirection strategy (left): Hider used similar geographical features and misleading clues to guide seekers towards alternative area, when hider is actually located in tiny red circle; Google Maps image for further clarity (right).
 </div>
 
+Reference: [[Jet Lag: The Game - Hide And Seek Switzerland, Season 9 Episode 2](https://www.youtube.com/watch?v=CkRXCvWptn4)]
+
 **Hider Strategies:**
 
 - **Truthful Misdirection:** Providing a clue that is factually 100% true but contextually misleading. One example is if asked “Take a photo of the nearest body of water”, the hider might zoom in so closely on a water body that it’s impossible to tell if it’s a small pond or a lake or even an ocean.
@@ -85,6 +82,7 @@ In practice, the game moves from broad geographic partitions to granular "street
     Ambiguity strategy: Despite hider clearly being located in suburbs area (left), hider chose to capture an image that could equally represent towns or cities (right) to render information less meaningful for seekers.
 </div>
 
+Reference: [[Jet Lag: The Game - Hide And Seek Switzerland, Season 9 Episode 1](https://www.youtube.com/watch?v=E8UmTJVDnUI)]
 
 ## 3.1. Bayesian Theory, Anyone?
 
