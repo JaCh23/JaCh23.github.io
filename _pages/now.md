@@ -10,13 +10,14 @@ nav_order: 1
 
 Undertook various AI Alignment courses plus a PhD research module on Cooperative AI. Wish to use my initial career phase towards exploring AI Research, desire to figure out my path and research interests.
 
-Still a believer that AI could potentially end the world if put in the wrong hands. Gulp.
+Still a believer that AI could potentially end the world in the next 5 years if we do not make the right decisions. Gulp.
 
 ---
 ## v0.2 (23-Jun-2025)
 
 Heard about AI Safety through various AI events and the local AI community. Wanted to spend time delving deeper into the field, intending to spend the next few months participating in AI Safety courses.
 
+Initialised website logo to be a penguin for 2 main reasons - I favour cold climate countries, and am also a fan of birds (more so than cats or dogs, but dogs would come in a close second place).
 ---
 ## v0.1 (15-Feb-2025)
 
