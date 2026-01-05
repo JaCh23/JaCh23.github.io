@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-teaching-and-mentorship",
+          title: "Teaching and Mentorship",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "post-bayesian-hide-and-seek-anyone",
         
           title: "Bayesian Hide-And-Seek, Anyone?",
