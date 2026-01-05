@@ -235,10 +235,26 @@ Do note that while the image shows numerous candidate locations that lie above t
 
 ## 4. The Technical Part, Anyone?
 
-#### 4.1. Meta-Game Variables
+#### 4.1.1 Game Variables: Hiding States
+
 We define the environment as a set of discrete, finite potential hiding locations $G$.
 
-**Hiding States ($G$)**: $G = \{g_1, g_2, \dots, g_n\}$, where each $g$ represents a specific geographic partition or coordinate.
+**Hiding States ($G$):** $G = \{g_1, g_2, \dots, g_n\}$, where each $g$ represents a specific geographic partition or coordinate.
+
+We then define each hiding state $g \in G$ as a **finite, countable binary feature vector**:
+
+$$
+g = (x_1, x_2, \dots, x_k, \dots, x_K)
+$$
+
+Where:
+- **$x_k \in \{0, 1\}$**: Each element is a boolean value representing the presence (1) or absence (0) of a specific attribute.
+- **$K$**: The total number of unique features
+
+**Clarification:** It can be argued that a more intuitive approach would be to associate a goal state with direct geographic data, eg a proper name, GPS coordinates, or continuous values like population density. However, it could also be noted that transforming these into a **0/1 boolean representation** is a strategic simplification; by binarizing the environment, it is then possible to convert complex spatial questions into simple logical gates, which greatly assists in the **partitioning phase** by allowing the Seeker to aggregate locations into discrete subsets subsequently.
+
+
+#### 4.1.2 Game Variables: Continuous Question-And-Answer
 
 **Evidence Stream ($E$)**: The interaction consists of a series of evidence (questions and answers pairs from the conversation between hiders and seekers) $E_1, E_2, \dots, E_N$.
 
@@ -256,7 +272,19 @@ Where:
 #### 4.2. Partition Logic
 Each question aims to create a partition $P$ over the state space $G$ to divide $G$ into subsets and eliminate unlikely candidates.
 
-Example: The Binary Partition
+A partition is established when a Seeker asks a question that targets a specific feature $x_k$. This effectively "sorts" the universal set $G$ based on the boolean value of that feature index. For any question targeting feature $k$, the partition can then be defined by partitioning the set of all locations into where the feature exists and where the feature is absent.
+
+In particular, For any question targeting feature $k$, the partition $P$ is defined as:
+
+$$
+P = \{S_{\text{TRUE}}, S_{\text{FALSE}}\}
+$$
+
+Where:
+- The set of all locations where the feature exists: $$S_{\text{TRUE}} = \{g \in G \mid x_k = 1\}$$
+- The set of all locations where the feature is absent: $$S_{\text{FALSE}} = \{g \in G \mid x_k = 0\}$$
+
+**Example: The Binary Partition**
 This is a relatively common, and arguably, simple-yet-effective move. As an example, let's assume a question divides the possible candidates into 2 clear subsets - "Are you North of my location?". Note other similar questions could also come in the form as "Are you closer (than me) to a major airport?". 
 
 The question naturally defines a partition over 2 subsets $S_1$ and $S_2$, as represented by $$P = \{S_1, S_2\}$$.
