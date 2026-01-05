@@ -285,6 +285,7 @@ Where:
 - The set of all locations where the feature is absent: $$S_{\text{FALSE}} = \{g \in G \mid x_k = 0\}$$
 
 **Example: The Binary Partition**
+
 This is a relatively common, and arguably, simple-yet-effective move. As an example, let's assume a question divides the possible candidates into 2 clear subsets - "Are you North of my location?". Note other similar questions could also come in the form as "Are you closer (than me) to a major airport?". 
 
 The question naturally defines a partition over 2 subsets $S_1$ and $S_2$, as represented by $$P = \{S_1, S_2\}$$.
