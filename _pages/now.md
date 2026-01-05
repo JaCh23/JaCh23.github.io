@@ -6,6 +6,10 @@ nav: true
 nav_order: 1
 ---
 
+## Why a Now Page? 
+> "Personal websites often have a link that says “now” that tells you what this person is focused on at this point in their life... \[it\] shares what you’d tell \[someone\] you hadn’t seen in a year."
+Reference: [What's A Now Page?](https://nownownow.com/about)
+
 ## v0.3 (12-Dec-2025)
 
 Undertook various AI Alignment courses plus a PhD research module on Cooperative AI. Wish to use my initial career phase towards exploring AI Research, desire to figure out my path and research interests.
@@ -18,6 +22,7 @@ Still a believer that AI could potentially end the world in the next 5 years if 
 Heard about AI Safety through various AI events and the local AI community. Wanted to spend time delving deeper into the field, intending to spend the next few months participating in AI Safety courses.
 
 Initialised website logo to be a penguin for 2 main reasons - I favour cold climate countries, and am also a fan of birds (more so than cats or dogs, but dogs would come in a close second place).
+
 ---
 ## v0.1 (15-Feb-2025)
 
