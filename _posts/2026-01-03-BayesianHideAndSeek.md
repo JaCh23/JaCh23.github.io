@@ -233,7 +233,7 @@ Do note that while the image shows numerous candidate locations that lie above t
 </div>
 
 
-## 4. The Technical Part, Anyone?
+## 4. The Technical Part, Anyone? (Optional, Feel Free to Skip)
 
 #### 4.1.1 Game Variables: Hiding States
 
