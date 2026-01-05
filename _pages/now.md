@@ -6,8 +6,8 @@ nav: true
 nav_order: 1
 ---
 
-## Why a Now Page? 
-> "Personal websites often have a link that says “now” that tells you what this person is focused on at this point in their life... \[it\] shares what you’d tell \[someone\] you hadn’t seen in a year."
+#### Why a Now Page? 
+> *"Personal websites often have a link that says “now” that tells you what this person is focused on at this point in their life... \[it\] shares what you’d tell \[someone\] you hadn’t seen in a year."*
 
 Reference: [What's A Now Page?](https://nownownow.com/about)
 
