@@ -29,9 +29,9 @@ My moderation approach focuses on bridging the gap between technical complexity 
 ---
 #### 3: Research
 
-\[v0.3.2\]: Currently working on some projects on Probabilistic programming and cognitive science; in addition (to the below content), also generally keen in topics on AI-based Psychology or Philosophy.
+\[v0.3.2\] Currently working on some projects on Probabilistic programming and cognitive science; in addition (to the below content), also generally keen in topics on AI-based Psychology or Philosophy.
 
-\[v0.3.1\]: In a phase of broad-based exploration! Interests include:
+\[v0.3.1\] In a phase of broad-based exploration! Interests include:
 
 * AI Safety & Alignment
 * AI for Good
