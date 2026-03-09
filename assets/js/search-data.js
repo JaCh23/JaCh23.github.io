@@ -142,6 +142,16 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-09-09-nrc/";
+            },},{id: "news-completed-enais-ai-safety-collab-course-alignment-track",
+          title: 'Completed ENAIS AI Safety Collab Course - Alignment Track',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-09-28-bluedot/";
+            },},{id: "news-accepted-into-technical-alignment-research-accelerator-tara",
+          title: 'Accepted into Technical Alignment Research Accelerator (TARA)',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-03-05-tara/";
             },},{id: "projects-can-you-hear-me",
           title: 'Can You Hear Me?',
           description: "Automatic Speech Recognition Pipeline for Distress Intelligence.",
