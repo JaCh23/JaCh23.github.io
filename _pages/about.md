@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href="https://www.aisafety.sg/" target="_blank">SASH</a> AI Safety Research. NUS MSc Business Analytics. <a href="https://advisory.sg/" target="_blank">Advisory.sg</a> Data/AI Technical Lead.
+subtitle: <a href="https://www.aisafety.sg/" target="_blank">SASH</a> AI Safety Research. NUS MSc Business Analytics. <a href="https://advisory.sg/" target="_blank">Advisory.sg</a> AI Technical Consultant.
 
 profile:
   align: left
@@ -14,15 +14,15 @@ profile:
   #   <p>Your City, State 12345</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: false # adds a vertical scroll bar if there are more than 3 news items
   limit: 2 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 2 # leave blank to include all the blog posts
 ---

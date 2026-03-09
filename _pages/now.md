@@ -14,7 +14,7 @@ Reference: [What's A Now Page?](https://nownownow.com/about)
 
 ## v0.3.2 (09-Mar-2026)
 
-Updated research interests. Renamed Collaborate page to Freelance to better represent content. Realigned career trajectory after conversations with peers and seniors in lieu of my past (industrial) background, currently gearing up towards AI Scientist/Research roles towards Responsible AI/AI Safety. Also in works of an interesting AI project, would announce more details soon if all goes well!
+Updated research interests. Renamed Collaborate page to Freelance to better represent content. Realigned career trajectory after conversations with peers and seniors in lieu of my past (industrial) background, currently gearing up towards AI Scientist/Research roles in Responsible AI/AI Safety. Also in works of an interesting AI project, would announce more details soon if all goes well!
 
 "work is (software) bugs but in real life towards acquiring finances" -jared 2k26
 
