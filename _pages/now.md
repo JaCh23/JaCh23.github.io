@@ -11,7 +11,15 @@ nav_order: 1
 
 Reference: [What's A Now Page?](https://nownownow.com/about)
 
-## v0.3 (12-Dec-2025)
+
+## v0.3.2 (09-Mar-2026)
+
+Updated research interests. Renamed Collaborate page to Freelance to better represent content. Realigned career trajectory after conversations with peers and seniors in lieu of my past (industrial) background, currently gearing up towards AI Scientist/Research roles towards Responsible AI/AI Safety.
+
+Also in works of an interesting AI project, would announce more details soon if all goes well!
+
+---
+## v0.3.1 (12-Dec-2025)
 
 Undertook various AI Alignment courses plus a PhD research module on Cooperative AI. Wish to use my initial career phase towards exploring AI Research, desire to figure out my path and research interests.
 

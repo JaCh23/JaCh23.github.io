@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Collaborate
-permalink: /collab/
+title: Freelance
+permalink: /freelance/
 nav: true
 nav_order: 6
 ---
@@ -27,12 +27,13 @@ Currently serving as a moderator for a non-profit organization, I facilitate dee
 My moderation approach focuses on bridging the gap between technical complexity and public understanding, ensuring that dense or complex concepts remain accessible and engaging for any audience, regardless of scale.
 
 ---
-#### 3: Research Collaborations & Explorations
+#### 3: Research
 
-I am currently in a phase of broad-based exploration, diving into the fundamental questions of how AI can be steered towards collective good while remaining safe for humanity. My interests are fluid as I navigate the evolving landscape of AI Safety and AI-for-Good, with a focus on:
+\[v0.3.2\]: Currently working on some projects on Probabilistic programming and cognitive science; in addition (to the below content), also generally keen in topics on AI-based Psychology or Philosophy.
 
-* AI Safety & Alignment: Exploring how systems interpret human intent and the underlying frameworks that prevent misalignment in increasingly capable models.
-* AI for Good: Investigating high-impact applications of AI that address systemic global challenges, ensuring that technological progress remains anchored in social benefit.
-* Interdisciplinary Synthesis: I am particularly drawn to projects that combine technical AI safety with cognitive science, Human-AI assistance, or socio-technical research.
+\[v0.3.1\]: In a phase of broad-based exploration! Interests include:
 
-**Note**: While I am eager to collaborate on a wide range of safety and impact topics, my current interests *do not encompass model evaluations, elicitation, and benchmarking*. I am primarily focused on high-level alignment and beneficial application.
+* AI Safety & Alignment
+* AI for Good
+* Interdisciplinary Synthesis (Technical AI safety combined with cognitive science/socio-technical/Human-AI interaction)
+
