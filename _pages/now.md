@@ -11,7 +11,20 @@ nav_order: 1
 
 Reference: [What's A Now Page?](https://nownownow.com/about)
 
+## v0.3.3 (14-Apr-2026)
 
+Introducing - [Spectra.ai](https://spectra-ai.org/)! Also involved as a mentor in a youth fellowship. Refined research interests. On the side, if I had to share my (current) vision of futuristic world, these images would capture them decently (kudos to Govtech RAI team for the second one).
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/futuristic-human-dog.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/human-ai-hands-art.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+---
 ## v0.3.2 (09-Mar-2026)
 
 Updated research interests. Renamed Collaborate page to Freelance to better represent content. Realigned career trajectory after conversations with peers and seniors in lieu of my past (industrial) background, currently gearing up towards AI Scientist/Research roles in Responsible AI/AI Safety. Also in works of an interesting AI project, would announce more details soon if all goes well!
