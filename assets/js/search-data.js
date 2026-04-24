@@ -44,12 +44,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-freelance",
-          title: "Freelance",
+        },{id: "nav-research",
+          title: "Research",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/freelance/";
+            window.location.href = "/research/";
           },
         },{id: "post-bayesian-hide-and-seek-anyone",
         
