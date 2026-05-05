@@ -31,7 +31,7 @@ When we stand at that curb, our brains are essentially running a background scri
 In this scenario, we are effectively evaluating our decision based off the Utility function, where a somewhat simple form would consider 2 main variables, the reward and costs*:
 
 $$
-Utility = \text{Reward}(\text{time saved}) - \text{Expected Cost}(\text{safety risks})
+Utility = \text{Reward}(\text{time saved}) - \text{Cost}(\text{safety risks})
 $$
 
 > It is worth noting that the specific weightings of these reward and cost functions are inherently subjective, varying based on an individual’s risk tolerance or a specific model’s training parameters; same argument for the parameters, where it may be non-exhaustive. But let's stick with this framework for now, as the 'Street View' of how we make choices.
@@ -52,6 +52,8 @@ Now, we can take these human observations and formalize them. To see how an agen
 | **Jaywalk (JW)** | $\ge 0 \ /\ 0$ | $\ll 0 \ /\ < 0$ |
 | **Don't Jaywalk (DJW)** | $\le 0 \ /\ 0$ | $N/A$ |
 
+Note: Notations follow (Pedestrian / Driver)
+
 > Note on the Model: We use broad inequalities here—specifically the "much less than" sign ($\ll 0$) for a catastrophe—to keep our estimates as conservative and general as possible. Here, specific integers are avoided to acknowledge that while the value of time or the cost of a collision is subjective, the relative magnitude of these outcomes is what drives the decision-making process. As long as the cost of an accident is significantly larger than the benefit of saving time, the fundamental logic of the trade-off remains roughly the same. Also, modelling the "boring" outcomes as $\ge 0$ and $\le 0$ acts as a conservative baseline. These values are highly dependent on risk-seeking behavior: a person in a massive hurry might see a huge reward in $\ge 0$, while a very cautious person might view $\le 0$ as a negligible price to pay for total peace of mind.
 
 Ok let's break it down a bit:
@@ -68,7 +70,7 @@ Now that we have our payoff matrix, we can see how an agent’s behavior changes
 ##### Option 1: The Selfish Jaywalker
 When we act as a "selfish" agent, our focus is laser-targeted on our own immediate goals. We aren’t necessarily trying to be mean; we’re just prioritizing our own time above all else. From this perspective, the street is just a puzzle to be solved. 
 
-If the coast is clear, the selfish agent sees a payoff of $(>=0 / 0)$. The "positive" score comes from the time they saved, and since there’s no one on the road to be inconvenienced, the driver’s score stays at a neutral zero. To this agent, staying at the curb feels like a glitch in the system—a failure to reach their destination as effectively as possible. As long as the risk of an accident remains a distant, abstract possibility, the decision to cross isn't a moral dilemma; it’s just the most logical way to get the highest score.
+If the coast is clear, the selfish agent sees a payoff of $(\ge 0 / 0)$. The "positive" score comes from the time they saved, and since there’s no one on the road to be inconvenienced, the driver’s score stays at a neutral zero. To this agent, staying at the curb feels like a glitch in the system—a failure to reach their destination as effectively as possible. As long as the risk of an accident remains a distant, abstract possibility, the decision to cross isn't a moral dilemma; it’s just the most logical way to get the highest score.
 
 However, there is the inevitable flip side: the "catastrophe" scenario. If the agent miscalculates the gap in traffic or fails to see a car speeding around a corner, the payoff crashes to $(\ll 0 \ /\ < 0)$. This represents a massive, non-linear loss for the agent—think total system failure or severe injury—and a significant loss for the driver as well. Because the penalty of an accident is so much greater than the reward of saving a few seconds, a truly rational agent isn't necessarily reckless; it simply requires a high degree of statistical certainty that the coast is clear before deciding that breaking the rule is the most efficient path forward.
 
