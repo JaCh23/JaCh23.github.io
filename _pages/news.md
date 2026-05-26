@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: News
 permalink: /news/
@@ -7,4 +7,4 @@ nav_order: 2
 news_scrollable: false
 ---
 
-{% include news.liquid %}
+{% include news.liquid %} -->

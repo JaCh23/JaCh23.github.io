@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 permalink: /teaching/
 title: Teaching
@@ -18,4 +18,4 @@ A significant part of my growth has come from embracing collaborative leadership
 #### Mentorship
 Recently, I was grateful for the chance to [mentor a team of juniors at a national innovation challenge, and it was rewarding to see them reach a Top 8 national finish and be awarded $5,000](..\news\2025-04-30-innochallenge). 
 
-Outside of my academic work, I use my technical skills for community benefit and outreach. I enjoy contributing to the next generation of technologists by helping to spearhead AI-based curriculum development at a local robotics and coding academy, where I also served as [Head Coach for teams that recently achieved a national Top 3 finish](..\news\2025-09-09-nrc). Also, I serve as the Data/AI Technical Lead for a [youth-focused non-profit](https://advisory.sg/), helping to architect and guide Data and AI initiatives that empower young people from all walks of life to make informed career and education choices.
+Outside of my academic work, I use my technical skills for community benefit and outreach. I enjoy contributing to the next generation of technologists by helping to spearhead AI-based curriculum development at a local robotics and coding academy, where I also served as [Head Coach for teams that recently achieved a national Top 3 finish](..\news\2025-09-09-nrc). Also, I serve as the Data/AI Technical Lead for a [youth-focused non-profit](https://advisory.sg/), helping to architect and guide Data and AI initiatives that empower young people from all walks of life to make informed career and education choices. -->
