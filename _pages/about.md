@@ -43,32 +43,29 @@ Outside of my academic work, I use my technical skills for community benefit and
 <!-- ---
 I am always keen to connect with others in the field. If you are interested in discussing collaborations on AI Safety research, please feel free to reach out! -->
 
-Hi, I'm Jared! I come from an industrial background possessing 3-4 years of experience in Data Science/Software/AI specialising in government level solutions (ex-GovTech). Since finishing my Masters, I took a gap year to explore the AI field in light of its exponential pickup which then led into a career transition year pivoting into AI Safety Research, where I headed back to school* to attend AI PhD classes and take up AI Safety courses. My research interests is in AI Control, AI Alignment, and AI Safety by design. I am spending this (present) year pursuing independent research, and I then aim to pursue a PhD in AI Safety or seek placement in industrial research roles. 
+Hi, I'm Jared! I am an AI Safety researcher with a background spanning 3-4 years in Data Science, Software Engineering, and AI, specializing in government-level solutions (ex-GovTech). Since completing my Master's, I transitioned into AI Safety to focus on the challenges of rapid AI adoption. Over the past year, I rigorously upskilled through specialized technical alignment programs and audited PhD AI courses. My current research interests are in AI Control, AI Alignment, and AI Safety by Design. Currently pursuing independent research, my immediate goal is to contribute to the field either through a PhD in AI Safety or via an industrial research role.
 
-On the side, I self-identify as a Teacher, Leader, and Mentor both past and present; further details are mentioned below to keep this introduction quick!
+Outside of research, I spend my time teaching and mentoring; please see below for more details. 
+
 
 ---
-#### Summary: AI Safety
-* Technical AI Safety Courses: Self-studied ARENA, ENAIS Bluedot AI Safety Colab, BlueDot Technical AI Safety Course, Technical Alignment Research Accelerator (TARA) 
+#### AI Safety Coursework
+* Technical AI Safety Courses: ARENA (self-studied), ENAIS AI Safety Colab, BlueDot Technical AI Safety Course, Technical Alignment Research Accelerator (TARA) 
 * AI PhD modules: Rational Approaches to Cooperative Intelligence (Prof Tan Zhi-Xuan), AI Uncertainty Modelling and Reasoning (Prof Harold Soh)
 
-#### Summary: Academic Journey
+#### Academic Journey
 * Awarded accelerated direct Masters scholarship (top 3% of cohort)
 * Offered CS PhD at Top 10
 
-#### Summary: Teaching 
-* Outstanding Teaching Award for infamous rigorous undergrad CS module (Discrete Structures)
+#### Teaching Experiences
+* Outstanding Teaching Award for rigorous undergrad CS module (Discrete Structures)
 * 2x Primary Teaching Assistant for post-grad module with commendations
 
-#### Summary: Leadership 
-* Team Lead for National hackathon that secured [1st runner-up](..\news\2022-06-30-hackru)
-* Numerous leadership experiences in post-grad module projects which were then awarded Top 4, Top 8 across whole cohort
+#### Leadership 
+* Led a national-level hackathon team to [1st runner-up finish](..\news\2022-06-30-hackru)
+* Led multiple post-grad project teams to Top 4 and Top 8 finishes across entire cohort
 
-#### Summary: Mentorship 
-* Mentored juniors at national innovation challenge, [Top 8 finish and awarded $5,000](..\news\2025-04-30-innochallenge)
-* Head Coach in local robotics academy, achieved national Top 3
+#### Community Mentorship 
+* Mentored a national innovation challenge team, supporting them to a [Top 8 finish and $5,000](..\news\2025-04-30-innochallenge)
+* Coached a local robotics academy youth team to a Top 3 national finish
 * AI Technical Lead for a [youth non-profit](https://advisory.sg/)
-
-
-*_Went back as an external guest auditor, as this might give an impression being a formal educational degree or certification._
-
