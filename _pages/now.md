@@ -13,7 +13,7 @@ Reference: [What's A Now Page?](https://nownownow.com/about)
 
 ### v0.4 (14-Apr-2026)
 
-Completed another PhD module while wrapping up an additional series of AI Safety courses. Narrowed research direction towards AI Control. Also launching a new AI Safety initative [Spectra](https://spectra-ai.org/) and stepping in as a mentor for a youth fellowship.
+Completed another PhD module while wrapping up an additional series of AI Safety courses. Narrowed research direction toward AI Control. Also launching a new AI Safety initiative [Spectra](https://spectra-ai.org/) and stepping in as a mentor for a youth fellowship.
 
 If I had to share my vision of a futuristic world, these images capture it well (kudos to Govtech RAI team for the second one).
 
