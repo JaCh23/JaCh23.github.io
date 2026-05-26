@@ -8,12 +8,10 @@ nav_order: 6
 
 #### Research
 
-\[v0.3.3\] Interests are generally inter-disciplinary: AI Control, Human-AI Alignment, AI Safety by design, world models, cognitive science. 
+Interests: AI Control, Human-AI Alignment, AI Safety by design. 
 
-\[v0.3.2\] Currently working on some projects on Probabilistic programming and cognitive science; also generally keen in topics on AI-based Psychology or Philosophy.
+On the side, happy to chat on AI-based psychology or philosophy.
 
-#### Here's A ChatGPT Provided Summary:
-> "... interests demonstrate a Safety-Cognition-Social triad: Looking at how AI is built (World Models), how it thinks (Cognition/Probabilistic Programming), and how it behaves in a human world (Pluralistic Alignment)."
 
 #### Works that (Roughly) Represent My Interests:
 * AI Safety by design/world models: [Guaranteed Safe AI](https://arxiv.org/abs/2405.06624); [Full-Stack Alignment](https://arxiv.org/abs/2512.03399)
@@ -24,4 +22,4 @@ nav_order: 6
 #### Books that Shape my Inspiration:
 * [A Brief History of Intelligence - Max Bennett](https://www.goodreads.com/book/show/62050269-a-brief-history-of-intelligence)
 * [Genesis: Human Experience in the Age of Artificial Intelligence - Luke Soon](https://www.amazon.sg/Genesis-Experience-Artificial-Intelligence-sustained/dp/1543781098)
-* [Algorithms to Live By - Brian Christian and Tom Griffiths](https://algorithmstoliveby.com/)
+* [Life 3.0 - Max Tegmark](https://www.amazon.sg/Life-3-0-Being-Artificial-Intelligence/dp/1101946598)
